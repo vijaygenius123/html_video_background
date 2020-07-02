@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hero{
+    position:absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.navbar{
+    font-size: 2em;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: flex-end;
+    list-style: none;
+}
+
+.navbar li{
+    margin-right: 30px;
+}
+
+video {
+    margin:0 auto;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    transition: 1s opacity;
+}
